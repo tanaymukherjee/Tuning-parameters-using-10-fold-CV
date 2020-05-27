@@ -1,6 +1,8 @@
 # Tuning-parameters-using-10-fold-CV
 In this problem, you will consider choosing the tuning parameters for both ridge regression and the lasso, using 10-fold cross-validation.
 
+
+## Objective:
 We begin with a true signal bstar. Although this is stored as a vector of length p = 2500, bstar really represents an image of dimension 50X50. You can plot it by calling:
 
 **plot.image( bs t a r ) .**
@@ -14,3 +16,11 @@ Because the machine is not perfect, we don't get to observe this directly, but w
 **y = X % * % bs t a r + rnorm(n , sd=5).**
 
 Now the question is: can we model y as a linear combination of the columns of X to recover some coecient vector that is close to bstar? Roughly speaking, the answer is yes. Key points here: although the number of measurements n = 1300 is smaller than the dimension p = 2500, the true vector bstar is sparse, and the weights in a linear combination are i.i.d normal. This is the idea behind the eld of compressed sensing.
+
+
+## TODO:
+The list of items we need to perform is given with the Homework3 pdf inside the 'Guidelines' folder.
+
+
+## Analysis:
+It is provided in detail in the 'Analysis folder. The corresponding code is shared inside the 'Code' folder.
