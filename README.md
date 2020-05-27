@@ -1,5 +1,5 @@
 # Tuning-parameters-using-10-fold-CV
-In this problem, you will consider choosing the tuning parameters for both ridge regression and the lasso, using 10-fold cross-validation.
+In this exercise, we will consider choosing the tuning parameters for both ridge regression and the lasso, using 10-fold cross-validation.
 
 
 ## Objective:
